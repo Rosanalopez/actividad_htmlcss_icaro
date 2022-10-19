@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2? family=Roboto:ital,wght@0,500;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+:root{
+    --primary:rgb(91, 10, 27);
+    --secundary:rgb(200, 176, 138);
+    --tertiary:rgb(79, 02, 52);
+
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    background-color: rgb(200, 176, 138);
+}
+img {
+    position: relative;
+    display: flex;
+    padding: 0px, 0px, 0px, 12px;
+   
+}
+.log{
+    width: 150px;
+   height: 100px;
+   justify-content: space-between;
+   margin: auto;
+   border-radius: 50%;
+   background-color: blueviolet;
+   
+}
+nav{
+    width: 50%;
+    height: 15vh;
+    display: flex;
+    color: black;
+    
+    
+}
+nav a{
+    text-align: center; 
+    align-items: center;
+
+}
+
+
+/*.encabezado{
+    width: 100%;
+    height: 10em;
+    display: flex;
+    padding: 1em;
+    text-align: center;
+    justify-content: space-between;
+    background-color: aqua;
+}*/
+.pro{
+    max-width: 100%;
+    max-height: 100%;
+    padding-left: 2rem;
+    object-fit: contain;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+   
+
+.logi{
+    
+  width: 150px;
+  height: 150px;
+}
+  /*BARRA MENU*/
+
+
+nav a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 14px;
+    text-transform: uppercase;
+    color: rgb(15, 13, 13);
+    font-size: 14px;
+    transition: all 400ms ease;
+}
+
+/*.menu{
+    max-width: 1200px;
+    margin: auto;
+    height: 100%;
+}
+.navegador{
+    background-color: blueviolet;
+}
+nav{
+    height: 100%;
+}*/
+.navu{
+    height: 100%;
+    display: flex;
+    position: relative;
+    text-align: center;
+}
+
+
+
+nav a:hover{
+    transform: scale(1.1);
+    background-color: rgb(91, 10, 27);
+    border-radius: 20px;
+    
+    padding: 10px;
+    font-size: x-large;
+
+}
+.hero{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    background-color: rgb(143, 76, 120);
+    color: white;
+}
+.pie{
+    height: 10vh;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color: rgb(79, 02, 52);
+   padding-left: 50px;
+}
+.col {
+    color: azure;
+    text-align: center;
+    font-style: Roboto;
+    padding-inline-end: 50px;
+    
+}
