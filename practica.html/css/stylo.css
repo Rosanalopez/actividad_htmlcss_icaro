@@ -23,7 +23,7 @@ header{
     align-items: center;
     top: 0;
     left: 0;
-    background-color: rgb(200, 176, 138);
+    background-color: var(--secundary);
 }
 img {
     position: relative;
@@ -106,20 +106,75 @@ h2{
     align-items: center;
     justify-content: center;
 }
+.lis{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    font-size: 30px;
+
+}
+
+
+.dibu{
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: px;
+    gap: 30px;
+    background-color:rgb(232, 227, 218);
+    /*background-image: url("../assets/imagenes/imagenfondomajolo.jpg");
+    background: linear-gradient(to right, rgb(0 0 0 /.5), rgb(0 0 0 /.5), url(../assets/imagenes/imagenfondomajolo.jpg));*/
+}
+.image{
+    display: flex;
+    
+}
+
+
 /*lista de productos destacados*/
-.pro{
+/*.pro{
     max-width: 100%;
     max-height: 200%;
-    /*display: grid;*/
+    display: grid;
     display: inline-flex;
-    /*padding-left: 2rem;*/
+    padding-left: 2rem;
     object-fit: contain;
     border-radius: 10px;
     align-items: center;
-    /*justify-content: space-around;*/
+    justify-content: space-around;
+    
+}*/
+section{
+    display: flex;
+}
+.detal{
+    justify-content:flex-start;
+    max-width: 100%;
+    max-height: 200%;
+    border-radius: 10px;
+    align-items: center;
+    
     
 }
-   
+.detal1{
+    justify-content:flex-start;
+    max-width: 100%;
+    max-height: 200%;
+    gap: 60px;
+    border-radius: 10px;
+    align-items: center;
+    flex-basis: auto;
+    /*justify-content: center;*/
+    object-fit: cover;
+    margin-top: 2px;
+    display: inline-flex;
+    /*border-radius: 30px;*/
+    
+}
 
 .logi{
  
@@ -127,17 +182,19 @@ h2{
   height: 150px;
   border-radius: 20px;
 }
-
-
-/*.menu{
-    max-width: 1200px;
-    margin: auto;
-    height: 100%;
+.bot{
+    background-color: rgb(27, 253, 53);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    
+}
+.bot1{
+    color: black;
+    font-size: 25px;
 }
 
-nav{
-    height: 100%;
-}*/
 
 
 /*Footer*/
@@ -157,7 +214,4 @@ nav{
     padding-inline-end: 50px;
     
 }
-/*.decor{
-    grid-auto-columns: 30px;
-}*/
 
